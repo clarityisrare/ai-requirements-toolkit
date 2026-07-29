@@ -1,0 +1,16 @@
+flowchart TD
+
+    Start([Request created]) --> Draft[Draft]
+
+    Draft -->|Requester submits| PendingReview[Pending Review]
+
+    PendingReview --> Decision{Approver decision}
+
+    Decision -->|Approves| Approved[Approved]
+    Decision -->|Rejects with comments| Rejected[Rejected]
+    Decision -->|Requests changes| Draft
+
+    Rejected -->|Requester revises and resubmits| PendingReview
+
+    Approved --> EndApproved([End: request proceeds])
+    Rejected --> EndRejected([End: request closed])
