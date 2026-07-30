@@ -5,9 +5,9 @@
   "description": "Five guided skills for AI-assisted requirements work — plan elicitation, draft testable requirements, review them, generate test cases, and produce spec diagrams.",
   "author": {
     "name": "Thinkerbell",
-    "url": "https://clarityisrare.com"
+    "url": "https://www.clarityisrare.com"
   },
-  "homepage": "https://clarityisrare.com",
+  "homepage": "https://www.clarityisrare.com",
   "repository": "https://github.com/clarityisrare/ai-requirements-toolkit",
   "license": "MIT",
   "keywords": [
