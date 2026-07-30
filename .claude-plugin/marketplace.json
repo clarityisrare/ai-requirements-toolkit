@@ -2,7 +2,7 @@
   "name": "ai-requirements-toolkit",
   "owner": {
     "name": "Thinkerbell",
-    "url": "https://clarityisrare.com"
+    "url": "https://www.clarityisrare.com"
   },
   "metadata": {
     "description": "The Requirements Engineering Toolkit as installable Claude skills — a companion to clarityisrare.com."
@@ -23,7 +23,7 @@
       ],
       "author": {
         "name": "Thinkerbell",
-        "url": "https://clarityisrare.com"
+        "url": "https://www.clarityisrare.com"
       }
     }
   ]
