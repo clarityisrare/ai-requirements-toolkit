@@ -1,0 +1,15 @@
+stateDiagram-v2
+
+    [*] --> Draft
+
+    Draft --> PendingReview: Submit
+    PendingReview --> Approved: Approve
+    PendingReview --> Rejected: Reject
+    PendingReview --> Draft: Request changes
+
+    Rejected --> PendingReview: Revise and resubmit
+    Draft --> Withdrawn: Withdraw
+
+    Approved --> [*]
+    Rejected --> [*]
+    Withdrawn --> [*]

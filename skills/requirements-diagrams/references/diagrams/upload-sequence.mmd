@@ -1,0 +1,28 @@
+sequenceDiagram
+    actor Customer
+    participant UI as Web App
+    participant API as Upload Service
+    participant Scan as Security Scanner
+    participant Store as Document Storage
+    participant Audit as Audit Log
+
+    Customer->>UI: Select file and upload
+    UI->>API: Send file + metadata
+    API->>API: Validate type and size
+    alt Invalid file
+        API-->>UI: Reject with reason
+        UI-->>Customer: Show validation message
+    else Valid file
+        API->>Scan: Request security scan
+        Scan-->>API: Scan result
+        alt Scan failed
+            API->>Audit: Record failed scan
+            API-->>UI: Block file
+            UI-->>Customer: Show error
+        else Scan passed
+            API->>Store: Store file
+            API->>Audit: Record upload event
+            API-->>UI: Success + document ID
+            UI-->>Customer: Show confirmation
+        end
+    end

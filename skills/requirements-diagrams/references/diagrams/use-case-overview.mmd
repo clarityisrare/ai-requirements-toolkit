@@ -1,0 +1,23 @@
+flowchart LR
+
+    Customer([Customer])
+    Reviewer([Reviewer])
+    Admin([Administrator])
+
+    subgraph sys [Requirement System]
+        UC1((Submit request))
+        UC2((Upload document))
+        UC3((Review request))
+        UC4((Approve / reject))
+        UC5((Export data))
+        UC6((Manage roles))
+        UC7((View audit trail))
+    end
+
+    Customer --- UC1
+    Customer --- UC2
+    Reviewer --- UC3
+    Reviewer --- UC4
+    Reviewer --- UC5
+    Admin --- UC6
+    Admin --- UC7

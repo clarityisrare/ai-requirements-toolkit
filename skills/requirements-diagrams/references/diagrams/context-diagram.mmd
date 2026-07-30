@@ -1,0 +1,26 @@
+flowchart LR
+
+    Customer[Customer]
+    Employee[Internal User]
+    Admin[Administrator]
+
+    System[Requirement System / Product]
+
+    DocumentStorage[(Document Storage)]
+    NotificationService[Notification Service]
+    IdentityProvider[Identity Provider]
+    AuditLog[(Audit Log)]
+    ReportingSystem[Reporting System]
+
+    Customer -->|Submits request / uploads documents| System
+    Employee -->|Reviews and processes request| System
+    Admin -->|Configures rules and permissions| System
+
+    System -->|Stores files| DocumentStorage
+    System -->|Sends alerts| NotificationService
+    System -->|Authenticates users| IdentityProvider
+    System -->|Records business events| AuditLog
+    System -->|Provides status and metrics| ReportingSystem
+
+    NotificationService -->|Sends email / message| Customer
+    NotificationService -->|Sends task notification| Employee
