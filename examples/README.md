@@ -12,3 +12,8 @@ before you try it on your own work.
 
 > These are illustrative examples, not real project data. Use them as a reference for format
 > and depth, then ground your own work in your stakeholders' input.
+
+---
+
+> ⭐ **If any of this saves you time, please star the repo.** Each star tells me the
+> toolkit is useful and worth expanding. It costs you a click and means a lot.

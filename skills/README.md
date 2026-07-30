@@ -38,3 +38,8 @@ The skills hand off to each other along the lifecycle: elicitation feeds the
 writer, the writer feeds the reviewer and the test generator, and diagrams support
 any stage. A human — Requirements Engineer, Product Owner, or SME — always owns the
 final decision.
+
+---
+
+> ⭐ **If any of this saves you time, please star the repo.** Each star tells me the
+> toolkit is useful and worth expanding. It costs you a click and means a lot.

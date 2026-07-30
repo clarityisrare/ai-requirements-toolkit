@@ -7,12 +7,16 @@ templates, and diagrams I reach for again and again.
 Everything here is plain Markdown and Mermaid, so you can copy a file, drop it into
 your own docs, or paste a prompt straight into an AI assistant.
 
+> 🤖 **Using Claude?** There's a ready-made [**Claude Skills**](./skills) version of
+> this toolkit — five installable skills that *run* the workflows for you (ask the
+> right questions, apply the method, self-check against the checklists) instead of
+> you copy-pasting prompts. See [`skills/`](./skills).
+
 > Companion to [Clarity Is Rare](https://clarityisrare.com). Use freely, adapt to your
 > context, and keep a human accountable for the final decision.
 
-> ⭐ **If any of this saves you time, please star the repo.** I'm aiming for **100 stars** —
-> each one tells me the toolkit is useful and worth expanding. It costs you a click and
-> means a lot.
+> ⭐ **If any of this saves you time, please star the repo.** Each star tells me the
+> toolkit is useful and worth expanding. It costs you a click and means a lot.
 
 ---
 
@@ -62,12 +66,29 @@ stateDiagram-v2
 
 | Folder | What it's for |
 |---|---|
+| [`skills/`](./skills) | 🤖 Installable **Claude Skills** — the whole toolkit as five guided workflows |
 | [`examples/`](./examples) | Worked, before/after examples showing the toolkit in action |
 | [`checklists/`](./checklists) | Quick pass/fail reviews for requirements, stories, NFRs, and AI output |
 | [`prompts/`](./prompts) | Copy-paste prompts for AI-assisted requirements work |
 | [`patterns/`](./patterns) | Reusable requirement patterns for common features |
 | [`templates/`](./templates) | Fill-in-the-blank starting points for requirements artifacts |
 | [`diagrams/`](./diagrams) | Mermaid source for common requirements diagrams |
+
+### Claude Skills 🤖
+
+The same toolkit, packaged as five installable [Claude Skills](./skills) that follow
+the requirements lifecycle. Instead of copy-pasting a prompt, you describe your task in
+plain language and Claude runs the workflow — asking the right questions, applying the
+method, and self-checking against the bundled checklists.
+
+- [`elicitation-planner`](./skills/elicitation-planner) — turn a thin business request into a workshop plan, stakeholder map, and glossary
+- [`requirements-writer`](./skills/requirements-writer) — draft testable, traceable requirements, user stories, and NFRs (with the feature patterns built in)
+- [`requirements-reviewer`](./skills/requirements-reviewer) — review requirements for ambiguity, risk, and readiness
+- [`test-case-generator`](./skills/test-case-generator) — turn acceptance criteria into test cases plus a traceability matrix
+- [`requirements-diagrams`](./skills/requirements-diagrams) — generate tailored Mermaid diagrams for a spec
+
+Install one by copying its folder into your Claude skills directory — see
+[`skills/README.md`](./skills#installing).
 
 ### Examples
 
@@ -144,9 +165,9 @@ Markdown, or in any Mermaid-aware tool.
 
 ## Star this repo ⭐
 
-If the toolkit is useful to you, a star genuinely helps. I'm working toward **100 stars** as
-a signal that it's worth maintaining and growing — hitting it directly shapes how much time I
-put into new patterns, prompts, and templates. Thank you.
+If the toolkit is useful to you, a star genuinely helps. It's a signal that this is worth
+maintaining and growing — and it shapes how much time I put into new patterns, prompts,
+templates, and skills. Thank you.
 
 ## Contributing
 
