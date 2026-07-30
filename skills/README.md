@@ -21,16 +21,30 @@ prompts, templates, checklists, patterns, and diagrams it needs.
 
 ## Installing
 
-Copy any skill folder into your Claude skills directory:
+### As a plugin (recommended)
+
+All five skills ship as one Claude Code plugin. Add this repo as a plugin
+marketplace, then install the bundle:
+
+```
+/plugin marketplace add clarityisrare/ai-requirements-toolkit
+/plugin install requirements-toolkit@ai-requirements-toolkit
+```
+
+Update later with `/plugin marketplace update ai-requirements-toolkit`.
+
+### A single skill by hand
+
+Prefer just one? Copy its folder into your Claude skills directory:
 
 ```bash
 # Claude Code (personal skills)
 cp -r elicitation-planner ~/.claude/skills/
 ```
 
-Then in Claude, describe your task in plain language — e.g. *"business asked us
-for a document upload feature, help me prepare for the kickoff"* — and the
-matching skill triggers on its own.
+Either way, once installed you just describe your task in plain language — e.g.
+*"business asked us for a document upload feature, help me prepare for the
+kickoff"* — and the matching skill triggers on its own.
 
 ## How they fit together
 

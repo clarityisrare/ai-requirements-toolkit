@@ -7,10 +7,15 @@ templates, and diagrams I reach for again and again.
 Everything here is plain Markdown and Mermaid, so you can copy a file, drop it into
 your own docs, or paste a prompt straight into an AI assistant.
 
-> 🤖 **Using Claude?** There's a ready-made [**Claude Skills**](./skills) version of
-> this toolkit — five installable skills that *run* the workflows for you (ask the
-> right questions, apply the method, self-check against the checklists) instead of
-> you copy-pasting prompts. See [`skills/`](./skills).
+> 🤖 **Using Claude Code?** Install the whole toolkit as a **plugin** in one step —
+> five skills that *run* the workflows for you instead of you copy-pasting prompts:
+>
+> ```
+> /plugin marketplace add clarityisrare/ai-requirements-toolkit
+> /plugin install requirements-toolkit@ai-requirements-toolkit
+> ```
+>
+> Prefer to grab a single skill by hand? See [`skills/`](./skills).
 
 > Companion to [Clarity Is Rare](https://clarityisrare.com). Use freely, adapt to your
 > context, and keep a human accountable for the final decision.
@@ -87,8 +92,20 @@ method, and self-checking against the bundled checklists.
 - [`test-case-generator`](./skills/test-case-generator) — turn acceptance criteria into test cases plus a traceability matrix
 - [`requirements-diagrams`](./skills/requirements-diagrams) — generate tailored Mermaid diagrams for a spec
 
-Install one by copying its folder into your Claude skills directory — see
-[`skills/README.md`](./skills#installing).
+**Install all five as a plugin (recommended).** In Claude Code, add this repo as a
+plugin marketplace and install the bundle:
+
+```
+/plugin marketplace add clarityisrare/ai-requirements-toolkit
+/plugin install requirements-toolkit@ai-requirements-toolkit
+```
+
+That's it — all five skills are now available and trigger automatically when you
+describe a matching task. Update later with `/plugin marketplace update
+ai-requirements-toolkit`.
+
+**Or install a single skill by hand** — copy its folder into your Claude skills
+directory; see [`skills/README.md`](./skills#installing).
 
 ### Examples
 

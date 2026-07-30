@@ -1,0 +1,21 @@
+{
+  "name": "requirements-toolkit",
+  "displayName": "Requirements Engineering Toolkit",
+  "version": "1.0.0",
+  "description": "Five guided skills for AI-assisted requirements work — plan elicitation, draft testable requirements, review them, generate test cases, and produce spec diagrams.",
+  "author": {
+    "name": "Thinkerbell",
+    "url": "https://clarityisrare.com"
+  },
+  "homepage": "https://clarityisrare.com",
+  "repository": "https://github.com/clarityisrare/ai-requirements-toolkit",
+  "license": "MIT",
+  "keywords": [
+    "requirements",
+    "requirements-engineering",
+    "business-analysis",
+    "user-stories",
+    "acceptance-criteria",
+    "elicitation"
+  ]
+}

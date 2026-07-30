@@ -1,0 +1,30 @@
+{
+  "name": "ai-requirements-toolkit",
+  "owner": {
+    "name": "Thinkerbell",
+    "url": "https://clarityisrare.com"
+  },
+  "metadata": {
+    "description": "The Requirements Engineering Toolkit as installable Claude skills — a companion to clarityisrare.com."
+  },
+  "plugins": [
+    {
+      "name": "requirements-toolkit",
+      "source": "./",
+      "description": "Five guided skills for AI-assisted requirements work — plan elicitation, draft testable requirements, review them, generate test cases, and produce spec diagrams.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": [
+        "requirements",
+        "business-analysis",
+        "user-stories",
+        "acceptance-criteria",
+        "qa"
+      ],
+      "author": {
+        "name": "Thinkerbell",
+        "url": "https://clarityisrare.com"
+      }
+    }
+  ]
+}
