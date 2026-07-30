@@ -5,3 +5,6 @@
 .vscode/
 .idea/
 *.swp
+
+node_modules/
+.astro/
