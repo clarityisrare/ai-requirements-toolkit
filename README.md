@@ -17,7 +17,7 @@ your own docs, or paste a prompt straight into an AI assistant.
 >
 > Prefer to grab a single skill by hand? See [`skills/`](./skills).
 
-> Companion to [Clarity Is Rare](https://clarityisrare.com). Use freely, adapt to your
+> Companion to [Clarity Is Rare](https://www.clarityisrare.com). Use freely, adapt to your
 > context, and keep a human accountable for the final decision.
 
 > ⭐ **If any of this saves you time, please star the repo.** Each star tells me the
