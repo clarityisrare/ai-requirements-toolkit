@@ -37,6 +37,7 @@ Rules:
 - Flag terms that are used with more than one meaning as "Conflicting definitions found"
   and list the conflicting uses.
 - Do not invent domain concepts that are not present in the material.
+- Be concise: no preamble and no restating the material. Include only terms the material actually uses — omit anything not present rather than padding. One term per row; no repetition.
 
 Return the result as a markdown table, sorted alphabetically by term.
 ```

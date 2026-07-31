@@ -46,9 +46,9 @@ For each acceptance criterion, provide:
 - Requirement or rule covered
 - Open questions, if any
 
-Return the result as a markdown table.
+Grounding and length:
+- Use only what the input provides. Do not invent business rules, roles, names, numbers, or sources; label any inference as "Assumption" and list gaps under "Open Questions" instead of filling them.
+- Be concise: no preamble, and do not restate the input. Cover only the scenario types the requirement supports — omit those that don't apply rather than padding. One criterion per row; no repetition.
 
-Do not invent business rules.
-If information is missing, list it under "Open Questions".
-Clearly label any assumption as "Assumption".
+Return the result as a markdown table.
 ```

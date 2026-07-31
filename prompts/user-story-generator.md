@@ -44,6 +44,7 @@ Rules:
 - Split stories that are too large; note where you split and why.
 - Prefer user value over implementation detail.
 - List anything missing under "Open Questions".
+- Be concise: no preamble, and do not restate the input. Produce the fewest stories that fully cover the need — one section per story, no padding or repetition.
 
 Return the result as markdown, one section per story.
 ```

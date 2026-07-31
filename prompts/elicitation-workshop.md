@@ -46,8 +46,9 @@ Include:
 11. Expected outputs
 12. Follow-up actions
 
-Return the result in markdown.
+Grounding and length:
+- Use only what the input provides. Do not invent business facts, stakeholders, or constraints; label any inference as "Assumption" and list gaps under "Information Needed" instead of filling them.
+- Be concise: no preamble, and do not restate the input. Include only the sections the input supports — omit what doesn't apply rather than padding. One item per line; no repetition.
 
-Do not invent business facts.
-If information is missing, list it under "Information Needed".
+Return the result in markdown.
 ```

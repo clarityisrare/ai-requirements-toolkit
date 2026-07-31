@@ -115,3 +115,9 @@ final call.
 - **One vocabulary.** Start the glossary early; a shared term prevents a dozen
   downstream misunderstandings.
 - **Keep a human accountable** for every decision the workshop produces.
+- **Ground every line.** Use only what the request provides — never invent business
+  facts, stakeholders, constraints, or numbers. Label inferences as assumptions and
+  keep unknowns as open questions rather than filling them.
+- **Concise over complete-looking.** Produce only what was asked — no preamble, no
+  restating the request. Include only the sections the input supports; omit what
+  doesn't apply instead of padding it. Stop when the plan is usable.

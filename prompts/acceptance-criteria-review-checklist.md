@@ -11,3 +11,5 @@ After generating acceptance criteria, check:
 - [ ] Are open questions listed?
 - [ ] Could QA create test cases from this output?
 - [ ] Would stakeholders understand the criteria?
+- [ ] Is every rule grounded in the input (no invented business rules)?
+- [ ] Is the output concise — no padding, restated input, or empty scenario sections?

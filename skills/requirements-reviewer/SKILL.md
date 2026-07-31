@@ -87,3 +87,7 @@ real problem is unresolved unknowns that need another stakeholder conversation.
 - **Questions stay questions.** Never resolve a business unknown by guessing —
   route it back to a human.
 - **Reviewer ≠ author.** Critique here; create in requirements-writer.
+- **Ground every finding.** Report only issues actually present in the artifact —
+  never invent problems, and never resolve a business unknown by guessing; flag it.
+- **Concise over complete-looking.** No preamble, no restating the artifact. One
+  finding per row, most severe first; omit empty categories instead of padding them.

@@ -20,6 +20,8 @@ Examples:
 - Flexible
 - Efficient
 
+Only flag wording actually present in the requirement; do not invent issues. Be concise — no preamble, one term per row, and omit anything that isn't genuinely ambiguous rather than padding the table.
+
 Return a markdown table with:
 
 - Term

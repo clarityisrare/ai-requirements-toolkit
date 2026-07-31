@@ -78,3 +78,7 @@ untested.
   criterion, that's a gap for requirements-writer to close.
 - **QA-executable.** Preconditions, steps, and expected results concrete enough to
   run without guessing.
+- **Ground every case.** Don't invent behaviour, data, or IDs the criteria don't
+  state — where a case can't be pinned to a criterion, flag the gap instead.
+- **Concise over complete-looking.** No preamble, no restating the input. One test
+  case per row; cover only what the criteria support and don't pad.

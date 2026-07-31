@@ -66,3 +66,5 @@ a sequence for an integration.
   fill the picture.
 - **Readable beats complete.** Fewer, well-chosen nodes communicate more.
 - **Always renderable.** Hand back valid Mermaid the user can paste and see.
+- **Minimal prose.** Return the diagram with a brief note on what it shows; don't
+  wrap it in long narration or restate the whole system in text.

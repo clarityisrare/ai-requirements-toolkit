@@ -52,6 +52,7 @@ Rules:
 - Make every target measurable. If you cannot, mark it "Needs a target" and explain what
   information is required.
 - Do not invent business or compliance constraints; list unknowns under "Open Questions".
+- Be concise: no preamble, and do not restate the input. Include only NFR categories that are relevant — omit those that don't apply rather than padding. One requirement per row; no repetition.
 
 Return the result as a markdown table, grouped by category.
 ```

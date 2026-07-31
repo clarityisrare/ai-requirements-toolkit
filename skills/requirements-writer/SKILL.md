@@ -130,3 +130,10 @@ what makes a requirement "AI-ready" and safe to act on.
 - **Traceable by default.** Tie each requirement to a source and a business goal.
 - **High-level first, then detail.** It's fine to draft a coarse version, validate
   it with the business, then refine — that loop is the job.
+- **Ground every line.** Use only what the input provides — never invent business
+  rules, roles, field names, numbers, or sources. Label inferences as **Assumption**
+  and route unknowns back to a human under **Open Questions** rather than filling them.
+- **Concise over complete-looking.** Produce only what was asked — no preamble, no
+  restating the input. Include only the sections the input supports; omit what doesn't
+  apply instead of padding it. One testable statement per line; stop when the request
+  is met.
