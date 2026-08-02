@@ -8,8 +8,7 @@
 
 ## Clarity
 
-- [ ] No vague or subjective terms left undefined (e.g. "fast", "easy", "user friendly",
-      "appropriate", "secure", "flexible", "efficient") — run the requirement through the
+- [ ] No vague or subjective terms left undefined — run the requirement through the
       [Ambiguity Detector prompt](../prompts/ambiguity-detector.md) to catch the full set
 - [ ] Any remaining subjective term has a measurable definition
 

@@ -1,0 +1,30 @@
+sequenceDiagram
+    actor Owner
+    participant Acct as Accounting Program
+    participant Archive as Digital Archive
+    participant Store as Archive Store
+    participant Audit as Audit Log
+    participant Backup as Portable Hard Disk
+
+    alt Manual capture — incoming bill, contract, bank document, scanned paper
+        Owner->>Archive: Add PDF file
+        Archive-->>Owner: Request metadata
+        Owner->>Archive: Date, Category, Name + optional Description, Amount
+        Archive->>Archive: Validate required fields
+        alt Required field missing
+            Archive-->>Owner: Reject with validation message
+        else Fields complete
+            Archive->>Store: Write unalterable copy
+            Archive->>Audit: Record capture event
+            Archive-->>Owner: Confirm archived
+        end
+    else Weekly batch — outgoing invoices
+        Acct->>Archive: Weekly PDF export batch
+        Archive->>Archive: Index each invoice by customer, date, amount
+        Archive->>Store: Write unalterable copies
+        Archive->>Audit: Record capture and batch outcome
+        Archive-->>Owner: Surface any failed transfers for action
+    end
+
+    Note over Store,Backup: Weekly backup to single portable disk — RPO 7 days
+    Store->>Backup: Copy archive

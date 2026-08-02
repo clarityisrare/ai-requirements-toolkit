@@ -1,5 +1,16 @@
 # Audit Trail Requirement Pattern
 
+## Contents
+
+- Purpose
+- Generic Requirement
+- Example Requirement
+- Core Requirement Fields
+- Example Functional Requirements
+- Acceptance Criteria
+- Non-Functional Considerations
+- AI Review Prompt
+
 ## Purpose
 
 Use this pattern when a system must keep a reliable, tamper-evident record of who did what

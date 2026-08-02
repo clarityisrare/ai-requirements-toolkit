@@ -61,7 +61,7 @@ Companion prompt: [NFR Generator](../prompts/nfr-generator.md).
 
 ## Quality gate
 
-- [ ] Every applicable NFR has a **measurable** target (a number or condition, not "fast",
-      "secure", or "user friendly")
+- [ ] Every applicable NFR has a **measurable** target — a number or condition, not a
+      vague word (see the [Ambiguity Detector](../prompts/ambiguity-detector.md))
 - [ ] Every target states how it will be verified
 - [ ] Non-applicable categories are explicitly marked "N/A", not left blank

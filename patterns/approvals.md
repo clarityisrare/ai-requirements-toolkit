@@ -1,5 +1,17 @@
 # Approval Workflow Requirement Pattern
 
+## Contents
+
+- Purpose
+- Generic Requirement
+- Example Requirement
+- Approval States
+- Core Requirement Fields
+- Example Functional Requirements
+- Acceptance Criteria
+- Non-Functional Considerations
+- AI Review Prompt
+
 ## Purpose
 
 Use this pattern when a request, document, or change must be reviewed and authorized before

@@ -1,0 +1,29 @@
+flowchart LR
+
+    Owner["Owner — sole user"]
+
+    Archive["Digital Document Archive<br/>GoBD system of record"]
+
+    Accounting["Accounting / Booking Program<br/>not GoBD-compliant"]
+    EmailInbox["Email Inbox"]
+    DesktopPC[("Desktop PC<br/>document folders")]
+    Scanner["Scanner"]
+    PaperFolders[("Physical Folders<br/>paper originals retained")]
+
+    Store[("Archive Store<br/>location undecided — RSK-101")]
+    Backup[("Portable Hard Disk")]
+    AuditLog[("Audit Log")]
+
+    Owner -->|Captures document + metadata| Archive
+    Owner -->|Searches, exports PDF for tax check| Archive
+    Owner -->|Scans paper| Scanner
+    Owner -->|Files original| PaperFolders
+    Scanner -->|Scanned PDF convenience copy| Archive
+
+    Accounting -->|Weekly PDF batch of outgoing invoices| Archive
+    DesktopPC -.->|One-time migration — last 3 years| Archive
+    EmailInbox -.->|One-off attachment triage list| Archive
+
+    Archive -->|Stores unalterably| Store
+    Archive -->|Records capture, export, correction| AuditLog
+    Store -->|Weekly backup| Backup

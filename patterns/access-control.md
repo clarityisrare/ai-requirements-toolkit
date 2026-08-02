@@ -1,5 +1,17 @@
 # Access Control Requirement Pattern
 
+## Contents
+
+- Purpose
+- Generic Requirement
+- Example Requirement
+- Key Concepts
+- Core Requirement Fields
+- Example Functional Requirements
+- Acceptance Criteria
+- Non-Functional Considerations
+- AI Review Prompt
+
 ## Purpose
 
 Use this pattern when different users must be allowed to see and do different things —

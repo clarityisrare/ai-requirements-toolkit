@@ -1,5 +1,16 @@
 # Search and Filtering Requirement Pattern
 
+## Contents
+
+- Purpose
+- Generic Requirement
+- Example Requirement
+- Core Requirement Fields
+- Example Functional Requirements
+- Acceptance Criteria
+- Non-Functional Considerations
+- AI Review Prompt
+
 ## Purpose
 
 Use this pattern when users need to find records in a list, table, or dataset — free-text
