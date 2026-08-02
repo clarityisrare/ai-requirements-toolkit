@@ -101,7 +101,9 @@ separate copy of the skills. The repo ships a Codex manifest
 both pointing at the same [`skills/`](.) folder.
 
 Codex added a plugin marketplace in 2026 with the same command shape as Claude Code.
-At the Codex prompt, add this repo as a source and install the bundle:
+Before running the commands below, install the **GitHub plugin** — you can do this via
+the plugin link found in the left menu. Then, at the Codex prompt, add this repo as a
+source and install the bundle:
 
 ```
 /plugin marketplace add clarityisrare/ai-requirements-toolkit
