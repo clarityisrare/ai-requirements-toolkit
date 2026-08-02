@@ -1,5 +1,17 @@
 # Approval Workflow Requirement Pattern
 
+## Contents
+
+- Purpose
+- Generic Requirement
+- Example Requirement
+- Approval States
+- Core Requirement Fields
+- Example Functional Requirements
+- Acceptance Criteria
+- Non-Functional Considerations
+- AI Review Prompt
+
 ## Purpose
 
 Use this pattern when a request, document, or change must be reviewed and authorized before
@@ -9,7 +21,8 @@ management, and many other workflows.
 Approval requirements become complex around multi-level chains, delegation, timeouts,
 segregation of duties, and what happens when a request is rejected or changed.
 
-See the companion diagram: [`diagrams/approval-process.mmd`](../diagrams/approval-process.mmd).
+A companion approval-process state diagram can be produced with the
+requirements-diagrams skill.
 
 ---
 

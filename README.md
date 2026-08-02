@@ -86,10 +86,10 @@ the requirements lifecycle. Instead of copy-pasting a prompt, you describe your 
 plain language and Claude runs the workflow — asking the right questions, applying the
 method, and self-checking against the bundled checklists.
 
-- [`elicitation-planner`](./skills/elicitation-planner) — turn a thin business request into a workshop plan, stakeholder map, and glossary
+- [`requirements-start`](./skills/requirements-start) — turn a thin business request into a workshop plan, stakeholder map, and glossary
 - [`requirements-writer`](./skills/requirements-writer) — draft testable, traceable requirements, user stories, and NFRs (with the feature patterns built in)
 - [`requirements-reviewer`](./skills/requirements-reviewer) — review requirements for ambiguity, risk, and readiness
-- [`test-case-generator`](./skills/test-case-generator) — turn acceptance criteria into test cases plus a traceability matrix
+- [`requirements-test-cases`](./skills/requirements-test-cases) — turn acceptance criteria into test cases plus a traceability matrix
 - [`requirements-diagrams`](./skills/requirements-diagrams) — generate tailored Mermaid diagrams for a spec
 
 **Install all five as a plugin (recommended).** In Claude Code, add this repo as a

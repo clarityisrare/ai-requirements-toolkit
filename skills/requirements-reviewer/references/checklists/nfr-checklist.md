@@ -4,7 +4,7 @@ Functional requirements describe *what* a system does. This checklist makes sure
 also considered *how well* it must do it. Not every category applies to every feature — mark
 the ones that do, and give each a **measurable** target.
 
-Companion prompt: [NFR Generator](../prompts/nfr-generator.md).
+Companion prompt: the NFR Generator in the requirements-writer skill.
 
 ---
 
@@ -61,7 +61,7 @@ Companion prompt: [NFR Generator](../prompts/nfr-generator.md).
 
 ## Quality gate
 
-- [ ] Every applicable NFR has a **measurable** target (a number or condition, not "fast",
-      "secure", or "user friendly")
+- [ ] Every applicable NFR has a **measurable** target — a number or condition, not a
+      vague word (see the [Ambiguity Detector](../ambiguity-detector.md))
 - [ ] Every target states how it will be verified
 - [ ] Non-applicable categories are explicitly marked "N/A", not left blank

@@ -4,6 +4,19 @@ Use this checklist before accepting AI-generated requirements, user stories, acc
 
 AI can accelerate requirements work, but the Requirements Engineer remains accountable for correctness, meaning, traceability, and stakeholder alignment.
 
+## Contents
+
+- [1. Source Grounding](#1-source-grounding)
+- [2. Business Alignment](#2-business-alignment)
+- [3. Requirements Quality](#3-requirements-quality)
+- [4. Acceptance Criteria Quality](#4-acceptance-criteria-quality)
+- [5. Traceability](#5-traceability)
+- [6. Risk Review](#6-risk-review)
+- [7. Human Review](#7-human-review)
+- [8. Confidence Label](#8-confidence-label)
+- [Final Decision](#final-decision)
+- [Reviewer Notes](#reviewer-notes)
+
 ---
 
 ## 1. Source Grounding
@@ -30,7 +43,7 @@ AI can accelerate requirements work, but the Requirements Engineer remains accou
 
 - [ ] Requirements are clear and unambiguous.
 - [ ] Requirements are testable.
-- [ ] Requirements avoid vague words such as "fast", "easy", "secure", "flexible", or "user-friendly" without measurable definition.
+- [ ] Requirements avoid vague words without a measurable definition (see the [Ambiguity Detector](../references/ambiguity-detector.md) for the set to catch).
 - [ ] Functional and non-functional requirements are separated where appropriate.
 - [ ] Constraints are documented.
 - [ ] Assumptions are documented.

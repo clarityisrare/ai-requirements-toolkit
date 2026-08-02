@@ -1,7 +1,8 @@
 # Example: Document Upload, Start to Finish
 
 This walks a single, realistic ask through the toolkit — from a one-line request to
-review-ready requirements — using the [Document Upload pattern](../patterns/document-upload.md).
+review-ready requirements — using the Document Upload pattern, one of the pattern
+files linked from the requirements-writer SKILL.md.
 
 ---
 
@@ -69,7 +70,7 @@ Open Questions
 
 ## Step 4 — Run the pattern's AI Review prompt
 
-Paste REQ-021 into the pattern's [AI Review Prompt](../patterns/document-upload.md#ai-review-prompt).
+Paste REQ-021 into the AI Review Prompt at the bottom of the Document Upload pattern.
 A representative result:
 
 | Issue | Risk | Suggested improvement | Severity |
@@ -83,8 +84,8 @@ A representative result:
 
 ## Step 5 — Validate the AI output
 
-Before accepting any of the above, run it through the
-[AI Output Validation checklist](../checklists/ai-output-validation.md). The retention finding
+Before accepting any of the above, validate the AI output against the source: is
+each finding grounded in the input, or invented? The retention finding
 is **Inferred** (the AI flagged an assumption *we* made) — valid. Nothing was invented, so it
 passes source-grounding.
 

@@ -1,6 +1,6 @@
 # Acceptance Criteria Review Checklist
 
-Companion to the [Acceptance Criteria Generator](./acceptance-criteria-generator.md).
+Companion to the Acceptance Criteria Generator in the requirements-writer skill.
 After generating acceptance criteria, check:
 
 - [ ] Are all business rules covered?

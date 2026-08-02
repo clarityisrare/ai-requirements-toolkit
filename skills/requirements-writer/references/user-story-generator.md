@@ -4,8 +4,8 @@ Use this prompt to turn a feature idea, requirement, or business need into well-
 stories that pass an INVEST review.
 
 The output should be reviewed by a Product Owner or Requirements Engineer, and validated with
-stakeholders, before it enters a backlog. See the companion
-[INVEST checklist](../checklists/user-story-quality.md).
+stakeholders, before it enters a backlog. A companion INVEST quality checklist is
+linked from the requirements-writer SKILL.md.
 
 ---
 

@@ -19,6 +19,7 @@ Examples:
 - Secure
 - Flexible
 - Efficient
+- User-friendly
 
 Return a markdown table with:
 

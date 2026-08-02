@@ -10,10 +10,10 @@ They follow the requirements lifecycle, in order:
 
 | # | Skill | When it fires |
 |---|---|---|
-| 1 | [`elicitation-planner`](./elicitation-planner) | A thin business request arrives — frame it, map stakeholders, and plan the discovery or validation workshop |
+| 1 | [`requirements-start`](./requirements-start) | A thin business request arrives — frame it, map stakeholders, and plan the discovery or validation workshop |
 | 2 | [`requirements-writer`](./requirements-writer) | Draft testable, traceable requirements, user stories, acceptance criteria, and NFRs (with feature patterns) |
 | 3 | [`requirements-reviewer`](./requirements-reviewer) | Review/audit existing requirements for ambiguity, risk, completeness, and readiness |
-| 4 | [`test-case-generator`](./test-case-generator) | Turn acceptance criteria into executable test cases + a traceability matrix |
+| 4 | [`requirements-test-cases`](./requirements-test-cases) | Turn acceptance criteria into executable test cases + a traceability matrix |
 | 5 | [`requirements-diagrams`](./requirements-diagrams) | Generate tailored Mermaid diagrams for a spec |
 
 Each skill is self-contained: a `SKILL.md` plus a `references/` folder holding the
@@ -39,7 +39,7 @@ Prefer just one? Copy its folder into your Claude skills directory:
 
 ```bash
 # Claude Code (personal skills)
-cp -r elicitation-planner ~/.claude/skills/
+cp -r requirements-start ~/.claude/skills/
 ```
 
 Either way, once installed you just describe your task in plain language — e.g.

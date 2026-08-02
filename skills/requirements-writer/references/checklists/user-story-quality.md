@@ -27,7 +27,7 @@ So that _____
 - [ ] Business value present
 - [ ] Acceptance criteria present
 - [ ] Constraints identified
-- [ ] Ambiguous language removed
+- [ ] No ambiguous language remains
 
 ---
 

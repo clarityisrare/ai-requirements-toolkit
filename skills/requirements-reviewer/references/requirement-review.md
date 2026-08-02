@@ -22,17 +22,13 @@ Identify:
 7. Security concerns
 8. Traceability concerns
 
-Classify findings:
-
-HIGH
-MEDIUM
-LOW
-
 For each finding provide:
 
-- Description
-- Risk
-- Suggested improvement
+- Finding — what's wrong or missing
+- Type — which of the categories above it falls under
+- Risk — what breaks downstream if it ships
+- Suggested improvement — concrete, not "make it clearer"
+- Severity — HIGH, MEDIUM, or LOW
 
-Return the result as a markdown table.
+Return the result as a markdown table, numbered and ordered most severe first.
 ```

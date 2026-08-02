@@ -2,7 +2,7 @@
 
 Use this prompt to turn a requirement, feature idea, user story, or business rule into structured acceptance criteria.
 
-The output should always be reviewed by a Requirements Engineer, Product Owner, QA specialist, or relevant subject matter expert before use. See the companion [review checklist](./acceptance-criteria-review-checklist.md).
+The output should always be reviewed by a Requirements Engineer, Product Owner, QA specialist, or relevant subject matter expert before use.
 
 ---
 

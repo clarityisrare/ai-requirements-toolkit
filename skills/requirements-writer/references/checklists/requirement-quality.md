@@ -8,9 +8,9 @@
 
 ## Clarity
 
-- [ ] No vague or subjective terms left undefined (e.g. "fast", "easy", "user friendly",
-      "appropriate", "secure", "flexible", "efficient") — run the requirement through the
-      [Ambiguity Detector prompt](../prompts/ambiguity-detector.md) to catch the full set
+- [ ] No vague or subjective term left undefined — any adjective whose truth cannot
+      be settled by a measurement (e.g. "fast", "secure", "easy", "appropriate",
+      "flexible") belongs in this set
 - [ ] Any remaining subjective term has a measurable definition
 
 ## Testability

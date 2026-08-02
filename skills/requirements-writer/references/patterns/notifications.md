@@ -1,5 +1,17 @@
 # Notification Requirement Pattern
 
+## Contents
+
+- Purpose
+- Generic Requirement
+- Example Requirement
+- Common Notification Events
+- Notification Channels
+- Requirement Fields
+- Acceptance Criteria
+- Non-Functional Considerations
+- AI Review Prompt
+
 ## Purpose
 
 Use this pattern when a system needs to inform users about important events, status changes, required actions, exceptions, or deadlines.

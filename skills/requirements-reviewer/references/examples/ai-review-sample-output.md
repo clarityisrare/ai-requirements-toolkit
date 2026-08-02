@@ -1,7 +1,7 @@
 # Example: AI Review — Sample Output
 
 This shows what the review prompts in this toolkit actually return, so you know what to expect
-and how to read it. The prompt used is [`prompts/requirement-review.md`](../prompts/requirement-review.md).
+and how to read it. The prompt used is [`requirement-review.md`](../requirement-review.md).
 
 ---
 
@@ -29,14 +29,14 @@ and how to read it. The prompt used is [`prompts/requirement-review.md`](../prom
 ## How to use this output
 
 1. **Do not accept it blindly.** Run it through the
-   [AI Output Validation checklist](../checklists/ai-output-validation.md) first.
+   [AI Output Validation checklist](../../assets/ai-output-validation.md) first.
 2. **Confirm, don't assume.** Findings 1 and 2 change behavior — take them to the stakeholder,
    don't guess the answer.
 3. **Turn HIGH findings into changes.** Each HIGH finding should become an edit to the
    requirement or a tracked open question before the item is called ready.
-4. **Reuse the patterns.** Findings 6 and 7 point straight at the
-   [Audit Trail](../patterns/audit-trail.md) and [Approval Workflow](../patterns/approvals.md)
-   patterns — apply them rather than reinventing the wording.
+4. **Reuse the patterns.** Findings 6 and 7 point straight at the Audit Trail and
+   Approval Workflow patterns in the requirements-writer skill — apply them rather
+   than reinventing the wording.
 
 ---
 

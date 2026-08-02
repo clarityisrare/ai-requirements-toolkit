@@ -22,8 +22,8 @@ Why this hurts:
 | "the right people" | Who, exactly, and based on what rule? |
 | "when something happens" | Which events trigger a notification? |
 
-Run this through the [Ambiguity Detector](../prompts/ambiguity-detector.md) and every bold
-word above comes back as a finding.
+Every bold word above is an ambiguity finding — a term whose meaning is left for a
+reader to guess.
 
 ---
 

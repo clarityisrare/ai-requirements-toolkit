@@ -48,7 +48,7 @@ Rules:
 - Each acceptance criterion must be covered by at least one test case.
 - Keep steps concrete enough for someone unfamiliar with the feature to execute.
 - Note any acceptance criterion that cannot be tested as written, and why.
-- Do not invent behaviour, data, or IDs the criteria don't state.
+- Do not invent behavior, data, or IDs the criteria don't state.
 - Be concise: no preamble, and do not restate the input. One test case per row; cover only what the criteria support — no padding or repetition.
 
 Return the result as a markdown table.

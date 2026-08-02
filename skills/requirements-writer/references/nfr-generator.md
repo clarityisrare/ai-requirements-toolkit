@@ -5,7 +5,7 @@ security, availability, usability, and more. Functional requirements say *what* 
 does; NFRs say *how well* it must do it.
 
 Review the output with architects and relevant SMEs, and turn vague targets into measurable
-ones. See the companion [NFR checklist](../checklists/nfr-checklist.md).
+ones. A companion NFR checklist is linked from the requirements-writer SKILL.md.
 
 ---
 

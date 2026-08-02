@@ -16,7 +16,7 @@ gate, not a wish list — if several boxes are unchecked, the item needs more re
 ## The item is well-formed
 
 - [ ] Written as a user story or clear requirement statement
-- [ ] Free of undefined vague terms (see [Ambiguity Detector](../prompts/ambiguity-detector.md))
+- [ ] Free of undefined vague terms (see [Ambiguity Detector](../references/ambiguity-detector.md))
 - [ ] Uses agreed glossary terms
 
 ## The item is testable

@@ -9,7 +9,7 @@ substitute for a formal security review or a Data Protection Impact Assessment.
 ## Authentication & Authorization
 
 - [ ] How users prove who they are is defined
-- [ ] What each role may do is defined (see [Access Control pattern](../patterns/access-control.md))
+- [ ] What each role may do is defined (see the Access Control pattern in the requirements-writer skill)
 - [ ] Access is denied by default (least privilege)
 - [ ] Authorization is enforced server-side, not only in the UI
 - [ ] Session and token handling is considered (expiry, revocation)
@@ -32,12 +32,12 @@ substitute for a formal security review or a Data Protection Impact Assessment.
 ## Input & Output
 
 - [ ] Input validation rules are defined
-- [ ] File uploads are scanned and constrained (see [Document Upload pattern](../patterns/document-upload.md))
+- [ ] File uploads are scanned and constrained (see the Document Upload pattern in the requirements-writer skill)
 - [ ] Error messages avoid leaking sensitive detail
 
 ## Auditing & Monitoring
 
-- [ ] Security-relevant events are logged (see [Audit Trail pattern](../patterns/audit-trail.md))
+- [ ] Security-relevant events are logged (see the Audit Trail pattern in the requirements-writer skill)
 - [ ] Failed access attempts are recorded
 - [ ] Monitoring / alerting for suspicious activity is considered
 
