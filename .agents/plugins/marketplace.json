@@ -1,0 +1,32 @@
+{
+  "name": "ai-requirements-toolkit",
+  "owner": {
+    "name": "Thinkerbell",
+    "url": "https://www.clarityisrare.com"
+  },
+  "metadata": {
+    "description": "Requirements engineering and regulatory reporting toolkits as installable Codex skills — a companion to clarityisrare.com."
+  },
+  "plugins": [
+    {
+      "name": "requirements-toolkit",
+      "description": "Five guided skills for AI-assisted requirements work — plan elicitation, draft testable requirements, review them, generate test cases, and produce spec diagrams.",
+      "version": "1.1.0",
+      "category": "productivity",
+      "source": {
+        "source": "local",
+        "path": "./Toolkit_RE"
+      }
+    },
+    {
+      "name": "reg-reporting-toolkit",
+      "description": "A regulatory intelligence pipeline for Swiss and EU reporting regimes — orchestration, comparison, convergence, output-quality and executive reporting stages across six regulatory domains, with citation discipline and an auditable trail.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": {
+        "source": "local",
+        "path": "./Toolkit_RegRep"
+      }
+    }
+  ]
+}

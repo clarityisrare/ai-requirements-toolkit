@@ -5,14 +5,14 @@
     "url": "https://www.clarityisrare.com"
   },
   "metadata": {
-    "description": "The Requirements Engineering Toolkit as installable Claude skills — a companion to clarityisrare.com."
+    "description": "Requirements engineering and regulatory reporting toolkits as installable Claude skills — a companion to clarityisrare.com."
   },
   "plugins": [
     {
       "name": "requirements-toolkit",
-      "source": "./",
+      "source": "./Toolkit_RE",
       "description": "Five guided skills for AI-assisted requirements work — plan elicitation, draft testable requirements, review them, generate test cases, and produce spec diagrams.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "productivity",
       "tags": [
         "requirements",
@@ -20,6 +20,26 @@
         "user-stories",
         "acceptance-criteria",
         "qa"
+      ],
+      "author": {
+        "name": "Thinkerbell",
+        "url": "https://www.clarityisrare.com"
+      }
+    },
+    {
+      "name": "reg-reporting-toolkit",
+      "source": "./Toolkit_RegRep",
+      "description": "Six jurisdiction-isolated regulatory SME subagents plus a comparison, convergence, output-quality and executive reporting pipeline for Swiss and EU reporting regimes.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": [
+        "regulatory-reporting",
+        "compliance",
+        "emir",
+        "mifir",
+        "finfrag",
+        "finsa",
+        "regulatory-convergence"
       ],
       "author": {
         "name": "Thinkerbell",

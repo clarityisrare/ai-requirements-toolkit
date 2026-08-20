@@ -1,0 +1,20 @@
+{
+  "name": "reg-reporting-toolkit",
+  "displayName": "Regulatory Reporting Intelligence Toolkit",
+  "version": "1.0.0",
+  "description": "A regulatory intelligence pipeline for Swiss and EU reporting regimes — orchestration, comparison, convergence, output-quality and executive reporting stages for FMIA Art 39, FMIA Art 104, EMIR, MiFIR Transaction Reporting, MiFID II Client Classification and FinSA Client Segmentation, with citation discipline and an auditable trail.",
+  "author": "Thinkerbell",
+  "license": "MIT",
+  "category": "Productivity",
+  "skills": "./skills/",
+  "capabilities": [
+    "regulatory-reporting",
+    "regulatory-convergence",
+    "compliance",
+    "emir",
+    "mifir",
+    "finfrag"
+  ],
+  "websiteURL": "https://www.clarityisrare.com",
+  "repository": "https://github.com/clarityisrare/ai-requirements-toolkit"
+}
