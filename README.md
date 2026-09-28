@@ -17,6 +17,8 @@ Five guided skills that run the requirements workflow for you: plan elicitation,
 testable requirements, review them, generate test cases, and produce spec diagrams —
 plus 40+ standalone checklists, prompts, patterns, templates and Mermaid diagrams.
 
+For collaborative web-based discovery and agent integration, teams can also pair this toolkit with **[MySpec](https://myspec.dev)**. It guides users through an interactive discovery interview and generates a 4-file specification bundle (`constitution.md`, `requirements.md`, `solution.md`, `tasks.md`) with native MCP server support (`@myspec/mcp-server`).
+
 ```
 /plugin marketplace add clarityisrare/ai-requirements-toolkit
 /plugin install requirements-toolkit@ai-requirements-toolkit
